@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-label="Escudo de Los Tordos Rugby Club">
+  <defs>
+    <clipPath id="escudo">
+      <path d="M100 8 C112 22 140 30 182 26 L182 112 C182 160 146 194 100 214 C54 194 18 160 18 112 L18 26 C60 30 88 22 100 8 Z"/>
+    </clipPath>
+  </defs>
+  <path d="M100 8 C112 22 140 30 182 26 L182 112 C182 160 146 194 100 214 C54 194 18 160 18 112 L18 26 C60 30 88 22 100 8 Z" fill="#13204A"/>
+  <g clip-path="url(#escudo)" stroke="#C8202F" stroke-width="24" stroke-linecap="butt">
+    <line x1="4" y1="18" x2="196" y2="214"/>
+    <line x1="196" y1="18" x2="4" y2="214"/>
+  </g>
+  <g fill="#FFFFFF" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="38" text-anchor="middle">
+    <text x="100" y="78">L</text>
+    <text x="52" y="128">T</text>
+    <text x="148" y="128">R</text>
+    <text x="100" y="180">C</text>
+  </g>
+  <path d="M100 8 C112 22 140 30 182 26 L182 112 C182 160 146 194 100 214 C54 194 18 160 18 112 L18 26 C60 30 88 22 100 8 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+</svg>

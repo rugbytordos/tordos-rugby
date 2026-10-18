@@ -1,0 +1,18 @@
+// Configuración del Worker de Cloudflare. No hace falta tocar nada acá.
+// Las llaves secretas NO van en este archivo: se cargan en Cloudflare
+// (Settings → Variables and Secrets).
+{
+  "name": "tordos-rugby",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "triggers": {
+    "crons": ["17 11 */2 * *"]
+  },
+  "keep_vars": true,
+  "observability": { "enabled": true }
+}
